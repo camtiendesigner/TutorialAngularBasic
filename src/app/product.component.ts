@@ -14,7 +14,7 @@ import {Component,Input,Output,EventEmitter} from '@angular/core'
 })
 
 export class ProductComponent{
-    @Input() name:string;
+    @Input() name:string;s
     private title;
     @Output() OnVote = new EventEmitter<boolean>();
     public vote:boolean = false;
